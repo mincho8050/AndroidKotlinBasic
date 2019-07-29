@@ -1,7 +1,6 @@
 package com.example.bmicalculator
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_result.*
 import org.jetbrains.anko.toast
@@ -13,7 +12,10 @@ class ResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_result)
 
         //전달받은 키와 몸무게
-        val height = intent.getStringExtra("height").toInt()
+        //데이터가 담긴 인텐트에서 데이터를 꺼내려면 getXXXExtra() 메서드를 사용
+        //전달받은 데이터가 문자열이기 때문에 getStringExtra() 메서드를 사용
+        val height = intent.getStringExtra("height").toInt() //꺼낸 문자열은 나중에 toInt()메서드를 사용해
+                                                                    //정수형으로 변환해 계산에 사용한다
         val weight = intent.getStringExtra("weight").toInt()
 
         //BMI 계산
@@ -54,14 +56,14 @@ class ResultActivity : AppCompatActivity() {
 
         /*
             Toast를 사용하여 간단한 메시지를 표시하기
-            - 안드로이드 기기를 사용하다 보면 하단에 잠깐 보였다 사라지는 메시지를 본 적이 있을 겁니다.
+            - 안드로이드 기기를 사용하다 보면 하단에 잠깐 보였다 사라지는 메시지가 있다
             - 이것을 토스트(Toast) 메시지라고 한다.
             - 토스트를 이용하여 BMI값을 표시할 수 있다.
          */
 
         //BMI값을 표시하는 토스트 코드
         //BMI값이 Double형이므로 $ 기호를 사용하여 문자열 템플릿에 적용하기
-        Toast.makeText(this, "$bmi",Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, "$bmi",Toast.LENGTH_SHORT).show()
 
         //토스트 코드에 Anko를 적용하면 다음과 같이 줄일 수 있다.
         toast("$bmi")

@@ -36,8 +36,9 @@ class MainActivity : AppCompatActivity() {
 
             //>1) Anko 라이브러리를 적용한 코틀린의 액티비티 전환 코드
             // 2) Anko를 적용한 코드. 클릭 이벤트를 처리하는 부분에 다음과 같이 코드 추가
+            //>버튼을 누르면 두번째 화면으로 이동하는 코드
             startActivity<ResultActivity>(
-                "weight" to weightEditText.text.toString(),
+                "weight" to weightEditText.text.toString(), //입력한 키와 몸무게를 문자열로 변경하여 인텐트에 담고 있다.
                 "height" to heightEditText.text.toString()
             )
 
@@ -49,6 +50,8 @@ class MainActivity : AppCompatActivity() {
     }//onCreate
 
     //데이터 저장하기
+    //> 마지막으로 입력했던 키와 몸무게가 다음 번 앱을 실행했을 때 남아있도록
+    //> SharedPreference에 저장하고 복원하는 기능
     //> 키와 몸무게를 저장하는 메서드를 작성
     private fun saveData(height:Int , weight:Int){
         val pref = PreferenceManager.getDefaultSharedPreferences(this) //1)프리퍼런스 매니저를 사용해 프리퍼런스 객체를 얻는다
@@ -62,7 +65,7 @@ class MainActivity : AppCompatActivity() {
     }//savaData
 
     /*
-        결과 버튼을 클릭할 때 화명을 전환하기 전에 saveDate() 메서드를 호출하여 프리퍼런스에
+        결과 버튼을 클릭할 때 화면을 전환하기 전에 saveDate() 메서드를 호출하여 프리퍼런스에
         키와 몸무게 값을 저장해본다. onCreate() 메서드에 다음과 같이 코드를 추가한다
      */
 

@@ -23,3 +23,13 @@
 </application>
 
 </manifest>
+
+<!--
+    이전화면으로 돌아가는 업 네비게이션 만들기
+    > 결과 버튼을 클릭하여 두 번째 화면을 표시한다. 이때 뒤로가기를 눌러 이전 화면으로 돌아갈 수 있다.
+    > 하지만 화면상으로는 이전 액티비티와의 상관관계를 알 수 있는 어떠한 표시도 없다. 이런 경우
+    > 업 네비게이션을 성절하여 상단 툴바에 뒤로가기 아이콘을 표시할 수 있다.
+    > parentActivityName 속성에 상위 액티비티를 지정하면 간단히 상하 관계를 설정할 수 있다.
+    <activity android:name=".ResultActivity" /> 에
+    android:parentActivityName=".MainActivity" 추가하기
+-->
