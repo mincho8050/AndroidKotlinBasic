@@ -144,8 +144,8 @@ https://github.com/Kotlin/anko 사이트로 들어가 연결하기 (README.md파
 
 ![고도](https://user-images.githubusercontent.com/49340180/62093869-d5f5ef00-b2b5-11e9-9680-aecccc4a6c7d.PNG)
 
+##### 4) 다시 맨 처음 화면으로 돌아가도 입력했던 값이 남아있다.
 
-#####4) 다시 맨 처음 화면으로 돌아가도 입력했던 값이 남아있다.
 
 
 
