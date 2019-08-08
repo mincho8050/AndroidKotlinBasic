@@ -2,19 +2,19 @@ package com.example.gpsmap
 
 import android.Manifest
 import android.annotation.SuppressLint
-import android.content.Context
+import android.content.pm.ActivityInfo
 import android.content.pm.PackageManager
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult
-
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -49,7 +49,16 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        /*
+            화면 유지하기
+         */
+        //화면이 꺼지지 않게 하기
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        //세로 모드로 화면 고정
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         setContentView(R.layout.activity_maps)
+
+
         // SupportMapFragment를 가져와서 지도가 준비되면 알림을 받는다.
         //> 프래그먼트 매니저로부터 SupportMapFragment를 얻는다.
         //> getMapAsync() 메서드로 지도가 준비되면 알림을 받는다.
@@ -65,6 +74,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     //위치 정보를 얻기 위한 각종 초기화
     //LocationRequest는 위치 정보 요청에 대한 세부 정보를 설정한다.
+    //여기에 설정하는 프로퍼티의 의미를 살펴보면 다음과 같다.
+    //priority : 정확도
+    //>PRIORITY_HIGH_ACCURACY : 가장 정확한 위치 요청
+    //>PRIORITY_BALANCED_POWER_ACCURACY : '블록'수준의 정확도를 요청
+    //>PRIORITY_NO_POWER : 추가 전력 소모 없이 최상의 정확도 요청
+    //interval : 위치를 갱신하는 데 필요한 시간은 밀리초 단위로 입력
+    //fatestInterval : 다른 앱에서 위치를 갱신했을 때 그 정보를 가장 빠른 간격(밀리초 단위)으로 입력
     private fun locationInit(){
         fusedLocationProviderClient = FusedLocationProviderClient(this)
 
@@ -264,6 +280,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         //현재 위치 요청을 삭제 -2
         fusedLocationProviderClient.removeLocationUpdates(locationCallback)
     }//removeLocationListener
+
 
 
 
