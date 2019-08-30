@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+LinearLayout에 모든 뷰 배치:
+그렇게 하려면 LinearLayout의 방향을 수직으로 설정하고
+layout_gravity를 사용하여 요소를 예상대로 중앙에 오도록 정렬하십시오.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_gravity="center_vertical"
+              tools:context=".MainActivity">
+    <!--<TextView-->
+            <!--android:id="@+id/result_text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="1"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:textSize="30sp"/>-->
+
+    <!--주사위 이미지!!-->
+    <ImageView
+            android:id="@+id/dice_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/empty_dice"
+            tools:src="@drawable/dice_1"/>
+    <!--
+        android:src="@drawable/empty_dice"
+        하면 맨 처음 시작화면에 주사위가 안보인다.
+        버튼을 눌러야 그제야 나옴.
+    -->
+
+<!--버튼추가-->
+    <!--문자열을 리소스에 추출하고 버튼을 화면 중앙으로 향해 수평으로 정렬하여
+    텍스트를 Roll로 설정하기-->
+    <Button
+            android:id="@+id/roll_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/roll"
+            android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Mon Aug 19 19:02:12 KST 2019
+base.0=D\:\\java0514\\android-kotlin-fundamentals-apps-master\\AboutMeDataBinding\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

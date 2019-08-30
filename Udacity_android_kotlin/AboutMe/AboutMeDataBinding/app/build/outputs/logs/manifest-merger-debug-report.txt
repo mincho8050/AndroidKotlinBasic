@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+MERGED from [androidx.databinding:databinding-adapters:3.3.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\databinding-adapters-3.3.0.aar\6769b2d0e7f7098cd971c0edb25aff35\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.3.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\databinding-runtime-3.3.0.aar\a44e232b46d0311e7c135d1720bf5b7d\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.2.aar\fc27d95263494f45d9781119f1567757\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\a6ce73df9168a5bda8c427c9203e7f57\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\996e306e7409545aa1bc03b4dfa3bc58\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\508e225047b7282fdf8d721c06754de4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\ba98abd5cb457188882c3ced6f0f4ce3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\389397a5c83868b8bbfd27d4068fa393\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\8ed0fb7e4c63325c930bb77c5423cc16\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\310428c0b6dbd7dc0153cc0c334c9284\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\3e74020ec192822699cb5e7f3ff03f98\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\d10434222b1cd2ef40fe4ec247f9375c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\b15db4278cff2ef8a98bd959a8bea401\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\7bbaca41e1964bb337fd2f1c87b10c38\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\654bb6a6917ad24f0548d0b2b42051ff\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\57d75e6d6bb6bda26dc9d05e0e26ac7c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\bd9e7bb7364ba385cf4c4525d827e65b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\3681fdfb3b01bb9d6e9644577ae7d5fc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\754794bb3a86ab91c233238bc3026e87\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\584849170c11e1e194e20536538a4370\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\fb3254d0c237e16360fb51587f90e473\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\1f8fefd42b80342b49c0e6f73e10e099\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\89177e3d8846df8a366ee23830ee70f7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\5b0da6485706eb98a94920c93a8bb5f1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\2ef91f76bf916fd47f4bc83dc9a7775f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\feb280c14315d0a9dd4b470e79402a77\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\5a61bd086cec862ab93ffdb0359a70c0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\41712049c1ce32ceed0352fd851d4c32\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+	package
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:19:5-42
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:1-37:12
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:18:11-69
+application
+ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:21:5-35:19
+MERGED from [androidx.core:core:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\bd9e7bb7364ba385cf4c4525d827e65b\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\bd9e7bb7364ba385cf4c4525d827e65b\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\754794bb3a86ab91c233238bc3026e87\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\754794bb3a86ab91c233238bc3026e87\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\bd9e7bb7364ba385cf4c4525d827e65b\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:27:9-40
+activity#com.example.android.aboutme.MainActivity
+ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:28:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.3.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\databinding-adapters-3.3.0.aar\6769b2d0e7f7098cd971c0edb25aff35\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.3.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\databinding-adapters-3.3.0.aar\6769b2d0e7f7098cd971c0edb25aff35\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.3.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\databinding-runtime-3.3.0.aar\a44e232b46d0311e7c135d1720bf5b7d\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.3.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\databinding-runtime-3.3.0.aar\a44e232b46d0311e7c135d1720bf5b7d\AndroidManifest.xml:22:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.2.aar\fc27d95263494f45d9781119f1567757\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.2.aar\fc27d95263494f45d9781119f1567757\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\a6ce73df9168a5bda8c427c9203e7f57\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\a6ce73df9168a5bda8c427c9203e7f57\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\996e306e7409545aa1bc03b4dfa3bc58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\996e306e7409545aa1bc03b4dfa3bc58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\508e225047b7282fdf8d721c06754de4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\508e225047b7282fdf8d721c06754de4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\ba98abd5cb457188882c3ced6f0f4ce3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\ba98abd5cb457188882c3ced6f0f4ce3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\389397a5c83868b8bbfd27d4068fa393\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\389397a5c83868b8bbfd27d4068fa393\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\8ed0fb7e4c63325c930bb77c5423cc16\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\8ed0fb7e4c63325c930bb77c5423cc16\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\310428c0b6dbd7dc0153cc0c334c9284\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\310428c0b6dbd7dc0153cc0c334c9284\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\3e74020ec192822699cb5e7f3ff03f98\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\3e74020ec192822699cb5e7f3ff03f98\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\d10434222b1cd2ef40fe4ec247f9375c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\d10434222b1cd2ef40fe4ec247f9375c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\b15db4278cff2ef8a98bd959a8bea401\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\b15db4278cff2ef8a98bd959a8bea401\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\7bbaca41e1964bb337fd2f1c87b10c38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\7bbaca41e1964bb337fd2f1c87b10c38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\654bb6a6917ad24f0548d0b2b42051ff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\654bb6a6917ad24f0548d0b2b42051ff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\57d75e6d6bb6bda26dc9d05e0e26ac7c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\57d75e6d6bb6bda26dc9d05e0e26ac7c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\bd9e7bb7364ba385cf4c4525d827e65b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\bd9e7bb7364ba385cf4c4525d827e65b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\3681fdfb3b01bb9d6e9644577ae7d5fc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\3681fdfb3b01bb9d6e9644577ae7d5fc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\754794bb3a86ab91c233238bc3026e87\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\754794bb3a86ab91c233238bc3026e87\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\584849170c11e1e194e20536538a4370\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\584849170c11e1e194e20536538a4370\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\fb3254d0c237e16360fb51587f90e473\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\fb3254d0c237e16360fb51587f90e473\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\1f8fefd42b80342b49c0e6f73e10e099\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\1f8fefd42b80342b49c0e6f73e10e099\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\89177e3d8846df8a366ee23830ee70f7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\89177e3d8846df8a366ee23830ee70f7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\5b0da6485706eb98a94920c93a8bb5f1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\5b0da6485706eb98a94920c93a8bb5f1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\2ef91f76bf916fd47f4bc83dc9a7775f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\2ef91f76bf916fd47f4bc83dc9a7775f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\feb280c14315d0a9dd4b470e79402a77\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\feb280c14315d0a9dd4b470e79402a77\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\5a61bd086cec862ab93ffdb0359a70c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\5a61bd086cec862ab93ffdb0359a70c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\41712049c1ce32ceed0352fd851d4c32\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soldesk\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\41712049c1ce32ceed0352fd851d4c32\AndroidManifest.xml:20:5-44
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+		ADDED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
+		INJECTED from D:\java0514\android-kotlin-fundamentals-apps-master\AboutMeDataBinding\app\src\main\AndroidManifest.xml
