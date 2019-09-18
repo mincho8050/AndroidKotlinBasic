@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="1000"
+        android:fromYDelta="-100%"
+        android:toYDelta="0" />
+    <!--
+    duration(지속) 아마도 애니메이션이 지속되는 시간인듯.
+    숫자가 적을수록 빨라짐 1000=1초 인듯..?
+    fromYDelta 이것도 fade와 같이 0부터 시작해서 떨어지는 위치
+    뭐 이런거 지정인듯
+    -->
+</set>
