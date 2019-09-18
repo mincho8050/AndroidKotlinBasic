@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.4"
+        android:toAlpha="1.0" />
+    <!-- 연하게 되는 농도 같음. opacity 같은..? 아마도 1이 기준이 아닐까 제일 진한 -->
+</set>

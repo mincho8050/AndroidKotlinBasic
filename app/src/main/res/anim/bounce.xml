@@ -1,0 +1,31 @@
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
+
+    <translate
+        android:fromYDelta="100%"
+        android:toYDelta="-20%"
+        android:duration="300" />
+    <!--
+    1) 밑에서 위로 올라오는 부분
+    올라오고나서 멈춤 다시 안내려옴
+    -->
+
+    <translate
+        android:startOffset="500"
+        android:fromYDelta="-20%"
+        android:toYDelta="10%"
+        android:duration="150" />
+    <!--
+    2) 올라온 다음 다시 내려오는 부분
+    -->
+    <translate
+        android:startOffset="1000"
+        android:fromYDelta="10%"
+        android:toYDelta="0"
+        android:duration="100" />
+    <!--
+    3) 내려오고 나서 공 튀기듯 다시 제자리로 오는 부분
+    -->
+</set>

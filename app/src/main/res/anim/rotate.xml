@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromDegrees="0"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:startOffset="0"
+    android:toDegrees="360" />
+<!--
+Degrees(도)
+fromDegrees : 0이면 처음 그 자리에서 시작이고, 숫자를 올리면 그 각도에서 시작.
+toDegrees : 끝나는 각도
+android:startOffset -> 애니메이션을 시작하기 전 대기시간이라고 한다. 1000=1초!!
+-->

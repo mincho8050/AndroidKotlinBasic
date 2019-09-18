@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CodeAndroid"
+        android:gravity="center"
+        android:layout_above="@+id/btn_layout"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/fade_in"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Fade In"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/fade_out"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Fade Out"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/zoom_in"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Zoom In"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/zoom_out"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Zoom Out"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/slide_down"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Slide Down"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/slide_up"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Slide Up"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/bounce"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Bounce"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/rotate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Rotate"
+                android:textAllCaps="false"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
