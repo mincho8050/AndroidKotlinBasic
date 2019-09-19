@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/my_nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph"/>
+</FrameLayout>
+
+<!--
+activity_main.xml는 FrameLayout안에 fragment view가 존재하도록 구현되어 있다.
+defaultNavHost와 navGraph는 fragment를 Host로 설정하는 속성이다.
+- app:defaultNavHost="true"
+- app:navGraph="@navigation/nav_graph"
+코틀린 파일에서 Host를 설정하지 않고 레이아웃 파일에서만 그래프와 호스트를 설정할 수 있다.
+- defaultNavHost를 true로 설정하면 Back key를 눌렀을 때 이전 화면으로 전환된다.
+만약 false로 설정하고 Back key를 누르면 앱을 종료한다.
+- navGraph는 graph를 정의한 파일을 의미한다.
+-->

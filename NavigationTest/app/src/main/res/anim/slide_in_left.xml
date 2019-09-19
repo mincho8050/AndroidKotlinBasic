@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate android:fromXDelta="-100%" android:toXDelta="0%"
+        android:fromYDelta="0%" android:toYDelta="0%"
+        android:duration="700"/>
+</set>
+
+<!--
+애니메이션이 없으면 바로 화면이 전환된다.
+action마다 애니메이션을 정의할 수 있다.
+애니메이션 정의는 navigation이 정의된 그래프 파일에서 할 수 있지만,
+그 전에 애니메이션들을 구현해야 한다.
+/res/anim/폴더를 만들고 4개의 애니메이션 파일을 구현한다.
+
+애니메이션을 파일로 정의하였으면 그래프 파일에 설정하면 된다.
+nav_graph.xml에 각각의 Action에 애니메이션을 설정한다.
+-->
